@@ -21,7 +21,7 @@
                     <!-- Slide -->
                     <li>
                         <div class="flex-caption">
-                            <h1>We imagine, craft and manage your brand in this new digital world.</h1>
+                            <h1>We imagine</h1>
                             <p><a class="button stroke smoothscroll" href="#program">See Our Works</a></p>
                         </div>
                     </li>
