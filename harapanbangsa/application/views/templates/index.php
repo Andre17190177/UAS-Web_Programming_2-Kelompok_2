@@ -183,13 +183,13 @@
 
         <div class="twelve columns">
 
-            <h1>Who Are We<span>.</span></h1>
+            <h1>Tentang Kami<span>.</span></h1>
 
             <hr />
 
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+            <p>Harapan Bangsa merupakan perusahaan yang memiliki concern untuk memperkuat akses dan kualitas pendidikan
+                terhadap seluruh warga negara indonesia. untuk mewujudkan pendidikan yang berkualitas di indonesia, kami juga berjejaring dengan
+                koalisi pendidikan di level regional dan global.
             </p>
 
             <div class="row tentang-content">
@@ -198,9 +198,8 @@
 
                     <h3>Visi</h3>
 
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                        voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                    <p>Terwujudnya masyarakat sipil yang kuat dan mampu memperjuangkan hak-haknya atas pendidikan dan kebijakan
+                        publik yang mendukung akses pendidikan 12 tahun yang berkualitas dan berkeadilan
                     </p>
 
                 </div> <!-- /left -->
@@ -209,9 +208,11 @@
 
                     <h3>Misi</h3>
 
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                        voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                    <p>Melakukan advokasi kebijakan pemerintah dalam mendukung pencapaian pendidikan yang inklusif dan berkeadilan,
+                        Meningkatkan peran masyarakat sipil dalam proses pengambilan keputusan dan pengawasan penyelenggaraan pendidikan 12 tahun
+                        yang berkualitas. Mengembangkan kajian dan penelitian untuk memperkuat advokasi kebijakan pendidikan berbasis data. Membangun sinergi jaringan
+                        pendidikan, baik di tingkat lokal, nasional, dan internasional. Memberdayakan kelompok-kelompok marginal untuk mendapatkan hak pendidikan yang
+                        berkualitas dan meningkatkan kapasitas tenaga pendidikan.
                     </p>
 
                 </div> <!-- /right -->
@@ -229,102 +230,6 @@
                         <h1>Donasi<span>.</span></h1>
 
                         <hr />
-
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                            voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-                        </p>
-
-                    </div>
-
-                </div>
-
-                <div class="row">
-
-                    <div class="twelve columns">
-
-                        <div id="donasi-wrapper" class="bgrid-third s-bgrid-half mob-bgrid-whole group">
-
-                            <article class="bgrid">
-
-                                <h5>September 2, 2014</h5>
-                                <h3><a href="single.html">Sed ut perspiciatis unde omnis iste natus</a></h3>
-
-                                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
-                                    isi elit consequat ipsum, nec sagittis sem nibh id elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.
-                                </p>
-
-                            </article>
-
-                            <article class="bgrid">
-
-                                <h5>August 29, 2014</h5>
-                                <h3><a href="single.html">Natus error sit voluptatem accusantium.</a></h3>
-
-                                <p>
-                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-                                </p>
-
-                            </article>
-
-                            <article class="bgrid">
-
-                                <h5>August 28, 2014</h5>
-                                <h3><a href="single.html">Ut enim ad minim veniam quis nostrud</a></h3>
-
-                                <p>
-                                    Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
-                                    isi elit consequat ipsum, nec sagittis sem nibh id elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.
-                                </p>
-
-                            </article>
-
-                            <article class="bgrid first">
-
-                                <h5>August 27, 2014</h5>
-                                <h3><a href="single.html">Sed ut perspiciatis unde omnis iste natus</a></h3>
-
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat.
-                                </p>
-
-                            </article>
-
-                            <article class="bgrid">
-
-                                <h5>August 25, 2014</h5>
-                                <h3><a href="single.html">Rerum dignissimos alias eligendi laudantium quod.</a></h3>
-
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum fuga distinctio natus ab sint
-                                    voluptate quos cumque assumenda ipsa cupiditate aperiam officiis recusandae nemo labore adipisci harum,
-                                    ea odio dolor.
-                                </p>
-
-                            </article>
-
-                            <article class="bgrid">
-
-                                <h5>August 23, 2014</h5>
-                                <h3><a href="single.html">Sed ut perspiciatis unde omnis iste natus</a></h3>
-
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt cumque, aut nam at,
-                                    doloremque repellat blanditiis quo accusantium, rerum dignissimos alias eligendi, laudantium quod.
-                                    Autem nihil explicabo ipsa magnam porro.
-                                </p>
-
-                            </article>
-
-                        </div> <!-- /donasi-wrapper -->
-
-                    </div> <!-- /twelve -->
-
-                </div> <!-- /row -->
-
             </section> <!-- /donasi -->
 
 
@@ -336,7 +241,7 @@
 
                     <div class="twelve columns">
 
-                        <h1>Tentang Kami<span>.</span></h1>
+                        <h1>Hubungi Kami<span>.</span></h1>
 
                         <hr />
 
