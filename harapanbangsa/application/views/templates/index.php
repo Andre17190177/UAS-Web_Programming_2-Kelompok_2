@@ -13,7 +13,7 @@
                     <!-- Slide -->
                     <li>
                         <div class="flex-caption">
-                            <h1>Hello, we are puremedia. We make awesome and stunning digital stuff.</h1>
+                            <h1>Hello</h1>
                             <p><a class="button stroke smoothscroll" href="#tentang">More tentang Us</a></p>
                         </div>
                     </li>
