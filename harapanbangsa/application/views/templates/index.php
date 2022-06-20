@@ -49,51 +49,7 @@
    ================================================== -->
 <section id="program">
 
-    <div class="row section-head">
-
-        <div class="twelve columns">
-
-            <h1>Our Latest Works<span>.</span></h1>
-
-            <hr />
-
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-            </p>
-
-        </div>
-
-    </div>
-
-    <div class="row items">
-
-        <div class="twelve columns">
-
-            <div id="program-wrapper" class="bgrid-fourth s-bgrid-third mob-bgrid-half group">
-
-                <div class="bgrid item">
-                    <div class="item-wrap">
-
-                        <a href="program.html">
-                            <img src="images/portfolio/grizzly.jpg" alt="Grizzly">
-                            <div class="overlay"></div>
-                            <div class="program-item-meta">
-                                <h5>Grizzly</h5>
-                                <p>Photography</p>
-                            </div>
-                        </a>
-
-                    </div>
-                </div> <!-- /item -->
-
-
-
-            </div> <!-- /program-wrapper -->
-
-        </div> <!-- /twelve -->
-
-    </div> <!-- /row -->
+    <img src="images/pendidikan-01.jpg">
 
 </section> <!-- /program -->
 
@@ -106,7 +62,7 @@
 
         <div class="twelve columns">
 
-            <h1>Our Awesome beritas<span>.</span></h1>
+            <h1>Berita</h1>
 
             <hr />
 
