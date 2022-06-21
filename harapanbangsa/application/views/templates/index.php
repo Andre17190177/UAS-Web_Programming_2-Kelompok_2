@@ -84,13 +84,15 @@
                 <div class="bgrid">
 
                     <div class="icon-part">
-                        <span class="icon-graph"></span>
+                        <img src="images/berita1.jpg">
                     </div>
 
-                    <h3>Marketing.</h3>
+                    <h3>Tempat Ini Berikan Kebahagiaan pada Anak Kurang Beruntung di Bali</h3>
 
                     <div class="berita-content">
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                        <p>menjadi surga dunia yang menarik perhatian banyak pendatang. Namun, tetap saja masih ada kesenjangan ekonomi yang terjadi, 
+                        sehingga ada anak-anak kurang beruntung yang harus mendapatkan perhatian dari seluruh pihak. Untuk itu Motel Mexicola Bali
+                        bekerja sama dengan Bali Children Foundation (BCF) mengulurkan tangan membantu anak-anak yang kurang beruntung
                         </p>
                     </div>
 
@@ -99,13 +101,15 @@
                 <div class="bgrid">
 
                     <div class="icon-part">
-                        <i class="icon-film"></i>
+                        <img src="images/berita2.jpg">
                     </div>
 
-                    <h3>Videography.</h3>
+                    <h3>Jurus Eri Cahyadi Sekolahkan Anak Kurang Mampu di Surabaya</h3>
 
                     <div class="berita-content">
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventoveritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                        <p>Wali Kota Surabaya Eri Cahyadi mengajak seluruh pegawai Pemerintah Kota Surabaya menjadi 
+                        orang tua asuh bagi anak-anak yang keluarganya tidak mampu atau masuk dalam Masyarakat
+                        Berpenghasilan Rendah (MBR).
                         </p>
                     </div>
 
@@ -114,13 +118,17 @@
                 <div class="bgrid">
 
                     <div class="icon-part">
-                        <i class="icon-camera"></i>
+                    <img src="images/berita3.jpg">
                     </div>
 
-                    <h3>Photography.</h3>
+                    <h3>Keren, Sekolah Ini Berikan Pendidikan Gratis Bagi Anak Kurang Mampu</h3>
 
                     <div class="berita-content">
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                        <p>Sekolah ini dikenal dengan nama Sekolah Bisa. 
+                        Ini menjadi salah satu tempat untuk anak kurang mampu atau bagi mereka yang putus sekolah.
+                        Sekolah Bisa merupakan sekolah gratis bagi anak-anak tidak mampu yang didirikan oleh British
+                        International School (BIS) bersama The Body Shop. Sekolah Bisa berlokasi di Gedung Serbaguna 
+                        The Body Shop, Pondok Jaya, Pondok Aren, Banten.
                         </p>
                     </div>
 
@@ -129,13 +137,15 @@
                 <div class="bgrid first">
 
                     <div class="icon-part">
-                        <i class="icon-eye"></i>
+                        <img src="images/berita4.jpg">
                     </div>
 
-                    <h3>Branding.</h3>
+                    <h3>Tak Mampu Beli dan Takut Didenda, Anak SD Terpaksa Pakai Masker Kotor</h3>
 
                     <div class="berita-content">
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                        <p>Memakai masker di tengah pandemi corona Covid-19 sudah jadi kewajiban di hampir setiap negara, 
+                        termasuk di Malaysia. Sejak 1 Agustus 2020, pemerintah federal Malaysia memberlakukan wajib penggunaan 
+                        masker wajah di seluruh negeri sebagai bagian dari Undang-Undang Pencegahan dan Pengendalian Penyakit Menular.
                         </p>
                     </div>
 
@@ -144,13 +154,15 @@
                 <div class="bgrid">
 
                     <div class="icon-part">
-                        <i class="icon-screen-desktop"></i>
+                        <img src="images/berita5.jpg">
                     </div>
 
-                    <h3>Web Design.</h3>
+                    <h3>Kesempatan Bantu Anak Kurang Mampu yang Terpapar Covid-19</h3>
 
                     <div class="berita-content">
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                        <p>Rabbani.co dari brand fesyen Rabbani meluncurkan koleksi modest wear terbaru yang terinspirasi 
+                        dari dinamika kehidupan wanita modern di Indonesia. Yang menarik, lewat koleksi teranyar ini, Rabbani.co 
+                        juga berkolaborasi dengan Giving is Caring untuk mendonasikan seluruh hasil penjualan koleksi mereka.
                         </p>
                     </div>
 
@@ -159,13 +171,15 @@
                 <div class="bgrid">
 
                     <div class="icon-part">
-                        <i class="icon-eyeglasses"></i>
+                        <img src="images/berita6.jpg">
                     </div>
 
-                    <h3>Web Development.</h3>
+                    <h3>Genap 20 Tahun, YCAB Sudah Menyekolahkan 3,5 Juta Anak Kurang Mampu</h3>
 
                     <div class="berita-content">
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                        <p>Dalam memperingati hari jadi ke-20, Yayasan Cinta Anak Bangsa (YCAB) mengadakan perayaan dengan tema
+                        ’20 Years Journey to Impact. Mereka mengadakan berbagai acara menarik tepat pada ulang tahun mereka pada
+                        13 Agustus 2019.
                         </p>
                     </div>
 
@@ -199,19 +213,22 @@
 
             <div class="row tentang-content">
 
-                <div class="mob-whole six columns left">
+            <div class="twelve columns">                
 
-                    <h3>Visi</h3>
+                    <h3>Visi<span>.</span></h3>
+
+                  
 
                     <p>Terwujudnya masyarakat sipil yang kuat dan mampu memperjuangkan hak-haknya atas pendidikan dan kebijakan
                         publik yang mendukung akses pendidikan 12 tahun yang berkualitas dan berkeadilan
                     </p>
 
-                </div> <!-- /left -->
+            </div>    
 
-                <div class="mob-whole six columns right">
+                
+            <div class="twelve columns">
+                    <h3>Misi<span>.</span></h3>
 
-                    <h3>Misi</h3>
 
                     <p>Melakukan advokasi kebijakan pemerintah dalam mendukung pencapaian pendidikan yang inklusif dan berkeadilan,
                         Meningkatkan peran masyarakat sipil dalam proses pengambilan keputusan dan pengawasan penyelenggaraan pendidikan 12 tahun
@@ -220,7 +237,7 @@
                         berkualitas dan meningkatkan kapasitas tenaga pendidikan.
                     </p>
 
-                </div> <!-- /right -->
+            </div>
 
             </div> <!-- /row -->
 
@@ -232,7 +249,7 @@
 
                     <div class="twelve columns">
 
-                        <h1>Donasi<span>.</span></h1>
+                        <h1>form donasi<span></span></h1>
 
                         <hr />
                     </div>
@@ -251,11 +268,6 @@
                         <h1>Hubungi Kami<span>.</span></h1>
 
                         <hr />
-
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                            voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-                        </p>
 
                     </div>
 

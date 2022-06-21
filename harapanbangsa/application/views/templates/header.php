@@ -52,7 +52,6 @@
         <div class="row header-inner">
 
             <div class="logo">
-                <a class="smoothscroll" href="#beranda">Puremedia.</a>
                 <a class="smoothscroll" href="#beranda">P.</a>
             </div>
 
