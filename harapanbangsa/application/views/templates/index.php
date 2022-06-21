@@ -13,9 +13,14 @@
                     <!-- Slide -->
                     <li>
                         <div class="flex-caption">
+<<<<<<< Updated upstream
                             <h1>BANTUAN KHUSUS</h1>
                             <br><h3>untuk anak anak penerus bangsa yang kurang mampu dan putus sekolah</h3></br>
                             <p><a class="button stroke smoothscroll" href="#donasi">DONASI</a></p>
+=======
+                            <h1>BANTUAN KHUSUS <br>untuk anak anak kurang mampu dan putus sekolah</br></h1>
+                            <p><a class="button stroke smoothscroll" href="#tentang">More tentang Us</a></p>
+>>>>>>> Stashed changes
                         </div>
                     </li>
 

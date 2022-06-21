@@ -991,7 +991,7 @@ header .logo a {
 @media (-webkit-min-device-pixel-ratio:2),
 (min-resolution:192dpi) {
 	header .logo a {
-		background-image: url("../images/logo-@2x.png");
+		background-image: url("../images/logo1.png");
 		-webkit-background-size: 126px 12px;
 		-moz-background-size: 126px 12px;
 		background-size: 126px 12px;
@@ -1512,7 +1512,7 @@ hr {
 }
 
 .ie8 #beranda {
-	background: #12151b;
+	background: #95071b;
 }
 
 /* Flex slider settings
