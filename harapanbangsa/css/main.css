@@ -312,7 +312,6 @@ select {
 	margin: 0 0 12px 0;
 	border: 0;
 	outline: none;
-	vertical-align: middle;
 	color: #a3a4a6;
 	font-family: "raleway-regular", sans-serif;
 	font-size: 14px;
@@ -991,7 +990,7 @@ header .logo a {
 @media (-webkit-min-device-pixel-ratio:2),
 (min-resolution:192dpi) {
 	header .logo a {
-		background-image: url("../images/logo1.png");
+		background-image: url("../images/logo5.png");
 		-webkit-background-size: 126px 12px;
 		-moz-background-size: 126px 12px;
 		background-size: 126px 12px;
@@ -1165,7 +1164,6 @@ ul#nav li.current a {
 #sidebar .tagcloud a {
 	font: 12px/24px "raleway-heavy", sans-serif !important;
 	display: inline-block;
-	float: left;
 	margin: 0 0 12px 12px;
 	padding: 6px 15px;
 	position: relative;
@@ -1460,7 +1458,6 @@ hr {
 
 .pagenav a[rel="next"]:after,
 .pagenav a[rel="prev"]:before {
-	float: left;
 	text-align: center;
 	display: inline-block;
 	background: transparent;
@@ -1554,7 +1551,6 @@ hr {
 /* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides>li {
 	display: none;
-	-webkit-backface-visibility: hidden;
 }
 
 /* Suggested container for slide animation setups. Can replace this with your own */
