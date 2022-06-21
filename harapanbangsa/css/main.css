@@ -312,6 +312,7 @@ select {
 	margin: 0 0 12px 0;
 	border: 0;
 	outline: none;
+	vertical-align: middle;
 	color: #a3a4a6;
 	font-family: "raleway-regular", sans-serif;
 	font-size: 14px;
@@ -1164,6 +1165,7 @@ ul#nav li.current a {
 #sidebar .tagcloud a {
 	font: 12px/24px "raleway-heavy", sans-serif !important;
 	display: inline-block;
+	float: left;
 	margin: 0 0 12px 12px;
 	padding: 6px 15px;
 	position: relative;
@@ -1458,6 +1460,7 @@ hr {
 
 .pagenav a[rel="next"]:after,
 .pagenav a[rel="prev"]:before {
+	float: left;
 	text-align: center;
 	display: inline-block;
 	background: transparent;
@@ -1551,6 +1554,7 @@ hr {
 /* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides>li {
 	display: none;
+	-webkit-backface-visibility: hidden;
 }
 
 /* Suggested container for slide animation setups. Can replace this with your own */
