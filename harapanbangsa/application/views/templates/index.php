@@ -13,24 +13,29 @@
                     <!-- Slide -->
                     <li>
                         <div class="flex-caption">
-                            <h1>Hello</h1>
-                            <p><a class="button stroke smoothscroll" href="#tentang">More tentang Us</a></p>
+                            <h1>BANTUAN KHUSUS</h1>
+                            <br><h3>untuk anak anak penerus bangsa yang kurang mampu dan putus sekolah</h3></br>
+                            <p><a class="button stroke smoothscroll" href="#donasi">DONASI</a></p>
                         </div>
                     </li>
 
                     <!-- Slide -->
                     <li>
                         <div class="flex-caption">
-                            <h1>We imagine</h1>
-                            <p><a class="button stroke smoothscroll" href="#program">See Our Works</a></p>
+                            <h1>MARI KITA WUJUDKAN CITA CITA MEREKA</h1>
+                            <br><h3>setiap anak di dunia ini memiliki cita cita yang luar biasa,
+                                dengan berdonasi seiklasnya bisa mewujudkan cita cita mereka
+                            </h3></br>
+                            <p><a class="button stroke smoothscroll" href="#donasi">DONASI</a></p>
                         </div>
                     </li>
 
                     <!-- Slide -->
                     <li>
                         <div class="flex-caption">
-                            <h1>Take a look at some of <a class="smoothscroll" href="#program" title="">our works</a> or <a class="smoothscroll" href="#kontak" title="">kontak us</a> to discuss how we can help you.</h1>
-                            <p><a class="button stroke smoothscroll" href="#kontak">Get In Touch</a></p>
+                            <h1>SENYUM MEREKA LEBIH BERARTI </h1>
+                            <br><h3>setiap anak memiliki hak yang sama untuk tersenyum dan tertawa</h3></br>
+                            <p><a class="button stroke smoothscroll" href="#donasi">DONASI</a></p>
                         </div>
                     </li>
 

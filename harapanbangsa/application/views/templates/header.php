@@ -73,6 +73,7 @@
                     <li><a class="smoothscroll" href="#tentang">Tentang.</a></li>
                     <li><a class="smoothscroll" href="#donasi">Donasi.</a></li>
                     <li><a class="smoothscroll" href="#kontak">Kontak.</a></li>
+                    
                 </ul>
 
             </nav> <!-- /nav-wrap -->
