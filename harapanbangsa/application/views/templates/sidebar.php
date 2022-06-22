@@ -4,7 +4,7 @@
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
         <div class="sidebar-brand-icon rotate-n-15"> <i class="fas fa-book"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">Pustaka Booking
+        <div class="sidebar-brand-text mx-3">Harapan Bangsa
         </div>
     </a>
     <!-- Divider -->
@@ -20,16 +20,20 @@
             <span>Dashboard</span></a>
     </li>
     <li class="nav-item">
-        <a class="nav-link pb-0" href="<?= base_url('buku/kategori'); ?>"> <i class="fa fa-fw fa book"></i>
-            <span>Kategori Buku</span></a>
+        <a class="nav-link pb-0" href="<?= base_url('donasi/jenis'); ?>"> <i class="fa fa-fw fa book"></i>
+            <span>Jenis Donasi</span></a>
     </li>
     <li class="nav-item">
-        <a class="nav-link pb-0" href="<?= base_url('buku'); ?>"> <i class="fa fa-fw fa book"></i>
-            <span>Data Buku</span></a>
+        <a class="nav-link pb-0" href="<?= base_url('donasi'); ?>"> <i class="fa fa-fw fa book"></i>
+            <span>Data Donasi</span></a>
     </li>
     <li class="nav-item">
-        <a class="nav-link pb-0" href="<?= base_url('user/anggota'); ?>"> <i class="fa fa-fw fa book"></i>
-            <span>Data Anggota</span></a>
+        <a class="nav-link pb-0" href="<?= base_url('donasi/donatur'); ?>"> <i class="fa fa-fw fa book"></i>
+            <span>Data Donatur</span></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link pb-0" href="<?= base_url('user/datauser'); ?>"> <i class="fa fa-fw fa book"></i>
+            <span>Data User</span></a>
     </li>
     </li> <!-- Divider -->
     <hr class="sidebar-divider mt-3"> <!-- Sidebar Toggler (Sidebar) -->

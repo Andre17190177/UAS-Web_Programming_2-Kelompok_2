@@ -126,4 +126,12 @@ class Autentifikasi extends CI_Controller
             redirect('autentifikasi');
         }
     }
+
+    public function logout()
+    {
+        $data['judul'] = 'Logout';
+        $this->load->view('templates/aute_header', $data);
+        $this->load->view('autentifikasi/login');
+        $this->load->view('templates/aute_footer');
+    }
 }

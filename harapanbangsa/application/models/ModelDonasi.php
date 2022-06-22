@@ -67,9 +67,9 @@ class ModelDonasi extends CI_Model
 
     public function joinJenis($where)
     {
-        $this->db->select('donasi.id_jenis, jenis.jenis_donasi');
+        $this->db->select('donasi.id, jenis.jenis_donasi');
         $this->db->from('donasi');
-        $this->db->join('jenis', 'jenis.id = donasi.id_jenis');
+        $this->db->join('jenis', 'jenis.id = donasi.id');
         $this->db->where($where);
         return $this->db->get();
     }

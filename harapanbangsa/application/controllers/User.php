@@ -18,16 +18,15 @@ class User extends CI_Controller
         $this->load->view('templates/v_footer');
     }
 
-    public function anggota()
+    public function dataUser()
     {
-        $data['judul'] = 'Data Anggota';
+        $data['judul'] = 'Data User';
         $data['user'] = $this->ModelUser->cekData(['email' => $this->session->userdata('email')])->row_array();
-        $this->db->where('role_id', 1);
         $data['anggota'] = $this->db->get('user')->result_array();
         $this->load->view('templates/v_header', $data);
         $this->load->view('templates/sidebar', $data);
         $this->load->view('templates/topbar', $data);
-        $this->load->view('user/anggota', $data);
+        $this->load->view('user/data_user', $data);
         $this->load->view('templates/v_footer');
     }
 
@@ -76,15 +75,5 @@ class User extends CI_Controller
             $this->session->set_flashdata('pesan', '<div class="alert alert-success alert-message" role="alert">Profil Berhasil diubah </div>');
             redirect('user');
         }
-    }
-
-    public function logout()
-    {
-        $data['user'] = $this->ModelUser->cekData(['email' => $this->session->userdata('email')])->row_array();
-        $this->load->view('templates/v_header', $data);
-        $this->load->view('templates/sidebar', $data);
-        $this->load->view('templates/topbar', $data);
-        $this->load->view('autentifikasi/login', $data);
-        $this->load->view('templates/v_footer');
     }
 }
