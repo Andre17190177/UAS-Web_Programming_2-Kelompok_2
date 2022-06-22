@@ -321,17 +321,21 @@ select {
 	max-width: 100%;
 	background: transparent;
 	border: 3px solid #a9aaab;
+	text-align: center;
+	margin-left: 200px;
 }
 
 textarea {
 	min-height: 162px;
+	margin-left: 300px;
 }
 
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-	background: white;
+	background: #7f0a1a;
+margin-left: 200px;
 }
 
 label,
@@ -1972,6 +1976,8 @@ hr {
 	-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
 	background-size: cover !important;
+	background-repeat: no-repeat;
+	background-position: center;
 	padding-top: 120px;
 	padding-bottom: 108px;
 	width: 100%;
