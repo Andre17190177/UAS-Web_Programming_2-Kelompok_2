@@ -35,15 +35,15 @@
                     <div class="columns">
                         <h3 class="address">Contact Us</h3>
                         <p>
-                            1600 Amphitheatre Parkway<br>
-                            Mountain View, CA<br>
-                            94043 US
+                            Universitas Bina Sarana Informatika<br>
+                            Tangerang Selatan, Banten<br>
+                            15540 TGR
                         </p>
 
                         <ul>
-                            <li><a href="tel:6473438234">647.343.8234</a></li>
-                            <li><a href="tel:1234567890">123.456.7890</a></li>
-                            <li><a href="mailto:someone@puremedia.com">someone@puremedia.com</a></li>
+                            <li><a href="tel:6473438234">o878928320038</a></li>
+                            <li><a href="tel:1234567890">0818736276374</a></li>
+                            <li><a href="mailto:someone@puremedia.com">harapanbangsa@gmail.com</a></li>
                         </ul>
                     </div> <!-- /columns -->
 

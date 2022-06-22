@@ -154,15 +154,16 @@
                 <div class="bgrid">
 
                     <div class="icon-part">
-                        <img src="images/berita5.jpg">
+                        <img src="images/berita6.jpg">
                     </div>
 
-                    <h3>Kesempatan Bantu Anak Kurang Mampu yang Terpapar Covid-19</h3>
+                    <h3>Genap 20 Tahun, YCAB Sudah Menyekolahkan 3,5 Juta Anak Kurang Mampu</h3>
 
                     <div class="berita-content">
-                        <p>Rabbani.co dari brand fesyen Rabbani meluncurkan koleksi modest wear terbaru yang terinspirasi 
-                        dari dinamika kehidupan wanita modern di Indonesia. Yang menarik, lewat koleksi teranyar ini, Rabbani.co 
-                        juga berkolaborasi dengan Giving is Caring untuk mendonasikan seluruh hasil penjualan koleksi mereka.
+                        <p>
+                        Dalam memperingati hari jadi ke-20, Yayasan Cinta Anak Bangsa (YCAB) mengadakan perayaan dengan tema
+                        ’20 Years Journey to Impact. Mereka mengadakan berbagai acara menarik tepat pada ulang tahun mereka pada
+                        13 Agustus 2019.
                         </p>
                     </div>
 
@@ -171,15 +172,16 @@
                 <div class="bgrid">
 
                     <div class="icon-part">
-                        <img src="images/berita6.jpg">
+                        <img src="images/berita5.jpg">
                     </div>
 
-                    <h3>Genap 20 Tahun, YCAB Sudah Menyekolahkan 3,5 Juta Anak Kurang Mampu</h3>
+                    <h3>Kesempatan Bantu Anak Kurang Mampu yang Terpapar Covid-19</h3>
 
                     <div class="berita-content">
-                        <p>Dalam memperingati hari jadi ke-20, Yayasan Cinta Anak Bangsa (YCAB) mengadakan perayaan dengan tema
-                        ’20 Years Journey to Impact. Mereka mengadakan berbagai acara menarik tepat pada ulang tahun mereka pada
-                        13 Agustus 2019.
+                        <p>
+                        Rabbani.co dari brand fesyen Rabbani meluncurkan koleksi modest wear terbaru yang terinspirasi 
+                        dari dinamika kehidupan wanita modern di Indonesia. Yang menarik, lewat koleksi teranyar ini, Rabbani.co 
+                        juga berkolaborasi dengan Giving is Caring untuk mendonasikan seluruh hasil penjualan koleksi mereka.
                         </p>
                     </div>
 
@@ -248,13 +250,80 @@
                 <div class="row section-head">
 
                     <div class="twelve columns">
+                    
 
                         <h1>form donasi<span></span></h1>
 
-                        <hr />
+                        <hr />  
+
+                        <div class="row form-section">
+
+                <div id="kontak-form" class="twelve columns">
+
+                    <form name="kontakForm" id="kontakForm" method="post" action="">
+
+                        <fieldset>
+
+                            <div class="row">
+
+                                <div class="six columns mob-whole">
+                                    <label for="kontakFname">Nama <span class="required">*</span></label>
+                                    <input name="kontakFname" type="text" id="kontakFname" placeholder="First Name" value="" />
+                                </div>
+
+                                <div class="six columns mob-whole">
+                                    <label for="kontakLname"> No.Telp <span class="required">*</span></label>
+                                    <input name="kontakLname" type="text" id="kontakLname" placeholder="Last Name" value="" />
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="six columns mob-whole">
+                                    <label for="kontakEmail">Email <span class="required">*</span></label>
+                                    <input name="kontakEmail" type="text" id="kontakEmail" placeholder="Email" value="" />
+                                </div>
+
+                                <div class="six columns mob-whole">
+                                    <label for="kontakSubject">Subject</label>
+                                    <input name="kontakSubject" type="text" id="kontakSubject" placeholder="Subject" value="" />
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="twelve columns">
+                                    <label for="kontakMessage">Message <span class="required">*</span></label>
+                                    <textarea name="kontakMessage" id="kontakMessage" placeholder="Your Message" rows="10" cols="50"></textarea>
+                                </div>
+
+                            </div>
+
+                            <div>
+                                <button class="submit full-width">Send Message</button>
+                                <div id="image-loader">
+                                    <img src="images/loader.gif" alt="" />
+                                </div>
+                            </div>
+
+                        </fieldset>
+
+                    </form> <!-- /kontakForm -->
+
+                    <!-- message box -->
+                    <div id="message-warning"></div>
+                    <div id="message-success">
+                        <i class="fa fa-check"></i>Your message was sent, thank you!<br />
                     </div>
-                </div>
-            </section> <!-- /donasi -->
+
+                </div> <!-- /kontak-form -->
+
+
+
+                </section> <!-- /kontak-->
+                            </section> <!-- /donasi -->
 
 
             <!-- kontak Section
@@ -272,71 +341,4 @@
                     </div>
 
                 </div>
-
-                <div class="row form-section">
-
-                    <div id="kontak-form" class="twelve columns">
-
-                        <form name="kontakForm" id="kontakForm" method="post" action="">
-
-                            <fieldset>
-
-                                <div class="row">
-
-                                    <div class="six columns mob-whole">
-                                        <label for="kontakFname">First Name <span class="required">*</span></label>
-                                        <input name="kontakFname" type="text" id="kontakFname" placeholder="First Name" value="" />
-                                    </div>
-
-                                    <div class="six columns mob-whole">
-                                        <label for="kontakLname">Last Name <span class="required">*</span></label>
-                                        <input name="kontakLname" type="text" id="kontakLname" placeholder="Last Name" value="" />
-                                    </div>
-
-                                </div>
-
-                                <div class="row">
-
-                                    <div class="six columns mob-whole">
-                                        <label for="kontakEmail">Email <span class="required">*</span></label>
-                                        <input name="kontakEmail" type="text" id="kontakEmail" placeholder="Email" value="" />
-                                    </div>
-
-                                    <div class="six columns mob-whole">
-                                        <label for="kontakSubject">Subject</label>
-                                        <input name="kontakSubject" type="text" id="kontakSubject" placeholder="Subject" value="" />
-                                    </div>
-
-                                </div>
-
-                                <div class="row">
-
-                                    <div class="twelve columns">
-                                        <label for="kontakMessage">Message <span class="required">*</span></label>
-                                        <textarea name="kontakMessage" id="kontakMessage" placeholder="Your Message" rows="10" cols="50"></textarea>
-                                    </div>
-
-                                </div>
-
-                                <div>
-                                    <button class="submit full-width">Send Message</button>
-                                    <div id="image-loader">
-                                        <img src="images/loader.gif" alt="" />
-                                    </div>
-                                </div>
-
-                            </fieldset>
-
-                        </form> <!-- /kontakForm -->
-
-                        <!-- message box -->
-                        <div id="message-warning"></div>
-                        <div id="message-success">
-                            <i class="fa fa-check"></i>Your message was sent, thank you!<br />
-                        </div>
-
-                    </div> <!-- /kontak-form -->
-
                 </div> <!-- /form-section -->
-
-            </section> <!-- /kontak-->

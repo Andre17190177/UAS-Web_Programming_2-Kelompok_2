@@ -2024,7 +2024,7 @@ hr {
 }
 
 #kontak .row {
-	max-width: 784px;
+	max-width: 940px;
 }
 
 #kontak h1 {
@@ -2057,6 +2057,7 @@ hr {
 	width: 100%;
 	background: #12151b;
 	border: 3px solid #575859;
+	padding-right: 100px;
 }
 
 #kontak textarea {
