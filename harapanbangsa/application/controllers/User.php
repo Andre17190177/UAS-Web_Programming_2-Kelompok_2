@@ -11,11 +11,11 @@ class User extends CI_Controller
     {
         $data['judul'] = 'Profil Saya';
         $data['user'] = $this->ModelUser->cekData(['email' => $this->session->userdata('email')])->row_array();
-        $this->load->view('templates/header', $data);
+        $this->load->view('templates/v_header', $data);
         $this->load->view('templates/sidebar', $data);
         $this->load->view('templates/topbar', $data);
         $this->load->view('user/index', $data);
-        $this->load->view('templates/footer');
+        $this->load->view('templates/v_footer');
     }
 
     public function anggota()
@@ -24,11 +24,11 @@ class User extends CI_Controller
         $data['user'] = $this->ModelUser->cekData(['email' => $this->session->userdata('email')])->row_array();
         $this->db->where('role_id', 1);
         $data['anggota'] = $this->db->get('user')->result_array();
-        $this->load->view('templates/header', $data);
+        $this->load->view('templates/v_header', $data);
         $this->load->view('templates/sidebar', $data);
         $this->load->view('templates/topbar', $data);
         $this->load->view('user/anggota', $data);
-        $this->load->view('templates/footer');
+        $this->load->view('templates/v_footer');
     }
 
     public function ubahProfil()
@@ -39,11 +39,11 @@ class User extends CI_Controller
         $this->form_validation->set_rules('nama', 'Nama Lengkap', 'required|trim', ['required' => 'Nama tidak Boleh Kosong']);
 
         if ($this->form_validation->run() == false) {
-            $this->load->view('templates/header', $data);
+            $this->load->view('templates/v_header', $data);
             $this->load->view('templates/sidebar', $data);
             $this->load->view('templates/topbar', $data);
             $this->load->view('user/ubah-profile', $data);
-            $this->load->view('templates/footer');
+            $this->load->view('templates/v_footer');
         } else {
             $nama = $this->input->post('nama', true);
             $email = $this->input->post('email', true);
@@ -81,10 +81,10 @@ class User extends CI_Controller
     public function logout()
     {
         $data['user'] = $this->ModelUser->cekData(['email' => $this->session->userdata('email')])->row_array();
-        $this->load->view('templates/header', $data);
+        $this->load->view('templates/v_header', $data);
         $this->load->view('templates/sidebar', $data);
         $this->load->view('templates/topbar', $data);
         $this->load->view('autentifikasi/login', $data);
-        $this->load->view('templates/footer');
+        $this->load->view('templates/v_footer');
     }
 }
