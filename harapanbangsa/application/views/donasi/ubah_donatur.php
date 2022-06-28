@@ -15,7 +15,7 @@
                     </div>
                     <div class="form-group">
                         <input type="hidden" id="id" name="id" value="<?php echo $o['id']; ?>">
-                        <input type="text" class="form-control form-control-user" id="no_telepon/hp" name="no_telepon/hp" placeholder="Masukkan Nomor Telepon/Hp" value="<?= $o['no_telepon/hp']; ?>">
+                        <input type="text" class="form-control form-control-user" id="telepon_donatur" name="telepon_donatur" placeholder="Masukkan Nomor Telepon/Hp" value="<?= $o['telepon_donatur']; ?>">
                     </div>
                     <div class="form-group">
                         <input type="hidden" id="id" name="id" value="<?php echo $o['id']; ?>">

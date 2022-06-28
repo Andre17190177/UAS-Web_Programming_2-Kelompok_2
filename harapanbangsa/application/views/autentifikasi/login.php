@@ -9,7 +9,7 @@
                         <div class="col-lg">
                             <div class="p-5">
                                 <div class="text-center">
-                                    <h1 class="h4 text-gray-900 mb-4">Halaman Login!!</h1>
+                                    <h1 class="h4 text-gray-900 mb-4">Harapan Bangsa</h1>
                                 </div> <?= $this->session->flashdata('pesan'); ?>
                                 <form class="user" method="post" action="<?= base_url('autentifikasi'); ?>">
                                     <div class="form-group">
@@ -22,10 +22,7 @@
                                 </form>
                                 <hr>
                                 <div class="text-center">
-                                    <a class="small" href="<?= base_url('autentifikasi/lupaPassword'); ?>">Lupa Password?</a>
-                                </div>
-                                <div class="text-center">
-                                    <a class="small" href="<?= base_url('autentifikasi/registrasi'); ?>">Daftar Member!</a>
+                                    <a class="small" href="<?= base_url('autentifikasi/registrasi'); ?>">Registrasi</a>
                                 </div>
                             </div>
                         </div>

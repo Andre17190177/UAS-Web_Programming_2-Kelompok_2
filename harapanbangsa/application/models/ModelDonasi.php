@@ -74,8 +74,6 @@ class ModelDonasi extends CI_Model
         return $this->db->get();
     }
 
-
-
     //Manajemen Donatur
     public function getDonatur()
     {

@@ -118,7 +118,7 @@
                             <tr>
                                 <td><?= $i++; ?></td>
                                 <td><?= $d['nama_donatur']; ?></td>
-                                <td><?= $d['no_telepon/hp']; ?></td>
+                                <td><?= $d['telepon_donatur']; ?></td>
                                 <td><?= $d['email']; ?></td>
                             </tr>
                         <?php } ?>
@@ -155,7 +155,7 @@
         </div>
         <div class="table-responsive table-bordered col-sm-5 ml-auto mr-auto mt-2">
             <div class="page-header"> <span class="fas fa-book text-warning mt-2"> Data Yayasan</span>
-                <a href="<?= base_url('buku'); ?>"><i class="fas fa-search text-primary mt-2 float-right"> Tampilkan</i></a>
+                <a href="<?= base_url('donasi/yayasan'); ?>"><i class="fas fa-search text-primary mt-2 float-right"> Tampilkan</i></a>
             </div>
             <div class="table-responsive">
                 <table class="table mt-3" id="table-datatable">
@@ -184,7 +184,7 @@
         </div>
         <div class="table-responsive table-bordered col-sm-5 ml-auto mr-auto mt-2">
             <div class="page-header"> <span class="fas fa-users text-primary mt-2 "> Data Anak Asuh</span>
-                <a class="text-danger" href="<?php echo base_url('user/data_user'); ?>"><i class="fas fa-search mt-2 float-right"> Tampilkan</i></a>
+                <a class="text-danger" href="<?php echo base_url('donasi/anak'); ?>"><i class="fas fa-search mt-2 float-right"> Tampilkan</i></a>
             </div>
             <div class="table-responsive">
                 <table class="table mt-3" id="table-datatable">
@@ -202,7 +202,7 @@
                         foreach ($anak as $n) { ?>
                             <tr>
                                 <td><?= $i++; ?></td>
-                                <td><?= $n['nama_yayasan']; ?></td>
+                                <td><?= $n['nama_anak']; ?></td>
                                 <td><?= $n['no_telepon/hp']; ?></td>
                                 <td><?= $n['alamat']; ?></td>
                             </tr>

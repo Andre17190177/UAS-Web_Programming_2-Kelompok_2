@@ -11,6 +11,16 @@
     <hr class="sidebar-divider">
     <!-- Looping Menu-->
     <!-- Heading -->
+
+    <div class="sidebar-heading"> Data User
+    </div> <!-- Nav Item - Dashboard -->
+    <li class="nav-item active">
+    <li class="nav-item">
+        <a class="nav-link pb-0" href="<?= base_url('user'); ?>"> <i class="fa fa-fw fa book"></i>
+            <span>Profil</span></a>
+    </li>
+    </li>
+    <br>
     <div class="sidebar-heading"> Master Data
     </div> <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
@@ -30,6 +40,14 @@
     <li class="nav-item">
         <a class="nav-link pb-0" href="<?= base_url('donasi/donatur'); ?>"> <i class="fa fa-fw fa book"></i>
             <span>Data Donatur</span></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link pb-0" href="<?= base_url('donasi/yayasan'); ?>"> <i class="fa fa-fw fa book"></i>
+            <span>Data Yayasan</span></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link pb-0" href="<?= base_url('donasi/anak'); ?>"> <i class="fa fa-fw fa book"></i>
+            <span>Data Anak Asuh</span></a>
     </li>
     <li class="nav-item">
         <a class="nav-link pb-0" href="<?= base_url('user/datauser'); ?>"> <i class="fa fa-fw fa book"></i>
