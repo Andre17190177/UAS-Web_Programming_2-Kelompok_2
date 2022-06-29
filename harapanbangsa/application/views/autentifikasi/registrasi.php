@@ -6,7 +6,7 @@
                 <div class="col-lg">
                     <div class="p-5">
                         <div class="text-center">
-                            <h1 class="h4 text-gray-900 mb-4">Daftar Menjadi Member!</h1>
+                            <h1 class="h4 text-gray-900 mb-4">Registrasi</h1>
                         </div>
                         <form class="user" method="post" action="<?= base_url('autentifikasi/registrasi'); ?>">
                             <div class="form-group">
@@ -27,12 +27,10 @@
                                     <?= form_error('password2', '<small class="text-danger pl-3">', '</small>'); ?>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-primary btn-user btn-block"> Daftar Menjadi Member </button>
+                            <button type="submit" class="btn btn-danger btn-user btn-block"> Registrasi Sekarang </button>
                         </form>
                         <hr>
-                        <div class="text-center"> <a class="small" href="<?= base_url('autentifikasi/lupaPassword'); ?>">Lupa Password?</a>
-                        </div>
-                        <div class="text-center"> Sudah Menjadi Member?<a class="small" href="<?= base_url('autentifikasi'); ?>"> Login!</a>
+                        <div class="text-center"> Sudah Memiliki Akun?<a class="small" href="<?= base_url('autentifikasi'); ?>"> Login!</a>
                         </div>
                     </div>
                 </div>

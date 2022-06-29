@@ -16,15 +16,12 @@
 
             <div class="six columns tab-whole footer-tentang">
 
-                <h3>About Puremedia</h3>
+                <h3>Tentang Kami</h3>
 
-                <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                    Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                    nibh id elit.
+                <p>Harapan Bangsa merupakan perusahaan yang memiliki concern untuk memperkuat akses dan kualitas pendidikan
+                    terhadap seluruh warga negara indonesia. untuk mewujudkan pendidikan yang berkualitas di indonesia, kami juga berjejaring dengan
+                    koalisi pendidikan di level regional dan global.
                 </p>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.</p>
 
             </div> <!-- /footer-about -->
 
@@ -33,30 +30,31 @@
                 <div class="row">
 
                     <div class="columns">
-                        <h3 class="address">Contact Us</h3>
+                        <h3 class="address">Alamat</h3>
                         <p>
-                            1600 Amphitheatre Parkway<br>
-                            Mountain View, CA<br>
-                            94043 US
+                            Jalan Kemerdekaan 1<br>
+                            Jakarta Selatan<br>
+                            15210
                         </p>
 
                         <ul>
-                            <li><a href="tel:6473438234">647.343.8234</a></li>
-                            <li><a href="tel:1234567890">123.456.7890</a></li>
-                            <li><a href="mailto:someone@puremedia.com">someone@puremedia.com</a></li>
+                            <h3 class="address">Kontak</h3>
+                            <li>081234567890</li>
+                            <li>080987654321</li>
+                            <li>harapanbangsa@gmail.com</li>
                         </ul>
                     </div> <!-- /columns -->
 
                     <div class="columns last">
-                        <h3 class="kontak">Follow Us</h3>
+                        <h3 class="kontak">Ikuti Kami</h3>
 
                         <ul>
-                            <li><a href="#">Facebook</a></li>
-                            <li><a href="#">Twitter</a></li>
-                            <li><a href="#">GooglePlus</a></li>
-                            <li><a href="#">Instagram</a></li>
-                            <li><a href="#">Flickr</a></li>
-                            <li><a href="#">Skype</a></li>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Whatsapp</li>
+                            <li>Instagram</li>
+                            <li>Discord</li>
+                            <li>Youtube</li>
                         </ul>
 
                     </div> <!-- /columns -->

@@ -22,7 +22,7 @@
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
                             <div class="text-md font-weight-bold text-white text-uppercase mb-1">Jumlah Donatur</div>
-                            <div class="h1 mb-0 font-weight-bold text-white"><?= $this->ModelDonasi->getDonatur()->num_rows(); ?></div>
+                            <div class="h1 mb-0 font-weight-bold text-white"><?= $this->ModelDonasi->getDonasi()->num_rows(); ?></div>
                         </div>
                         <div class="col-auto"> <a href="<?= base_url('buku'); ?>"><i class="fas fa-book fa-3x text-primary"></i></a>
                         </div>
@@ -62,6 +62,20 @@
                 </div>
             </div>
         </div>
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-danger shadow h-100 py-2 bg-primary">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-md font-weight-bold text-white text-uppercase mb-1">Jumlah Anak Asuh</div>
+                            <div class="h1 mb-0 font-weight-bold text-white"><?= $this->ModelDonasi->getAnak()->num_rows(); ?></div>
+                        </div>
+                        <div class="col-auto"> <a href="<?= base_url('user/anggota'); ?>"><i class="fas fa-users fa-3x text-warning"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- end row ux-->
     <!-- Divider -->
@@ -96,35 +110,6 @@
                         </tr> <?php } ?>
                 </tbody>
             </table>
-        </div>
-        <div class="table-responsive table-bordered col-sm-5 ml-auto mr-auto mt-2">
-            <div class="page-header"> <span class="fas fa-book text-warning mt-2"> Data Donatur</span>
-                <a href="<?= base_url('donasi/donatur'); ?>"><i class="fas fa-search text-primary mt-2 float-right"> Tampilkan</i></a>
-            </div>
-            <div class="table-responsive">
-                <table class="table mt-3" id="table-datatable">
-                    <thead>
-                        <tr>
-                            <th>#</th>
-                            <th>Nama Donatur</th>
-                            <th>No Telepon/Hp</th>
-                            <th>Email</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <?php
-                        $i = 1;
-                        foreach ($donatur as $d) { ?>
-                            <tr>
-                                <td><?= $i++; ?></td>
-                                <td><?= $d['nama_donatur']; ?></td>
-                                <td><?= $d['telepon_donatur']; ?></td>
-                                <td><?= $d['email']; ?></td>
-                            </tr>
-                        <?php } ?>
-                    </tbody>
-                </table>
-            </div>
         </div>
         <div class="table-responsive table-bordered col-sm-5 ml-auto mr-auto mt-2">
             <div class="page-header"> <span class="fas fa-users text-primary mt-2 "> Data Donasi</span>

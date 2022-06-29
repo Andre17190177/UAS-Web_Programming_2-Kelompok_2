@@ -71,9 +71,9 @@
                     <li><a class="smoothscroll" href="#program">Program.</a></li>
                     <li><a class="smoothscroll" href="#berita">Berita.</a></li>
                     <li><a class="smoothscroll" href="#tentang">Tentang.</a></li>
-                    <li><a class="smoothscroll" href="#donasi">Donasi.</a></li>
                     <li><a class="smoothscroll" href="#kontak">Kontak.</a></li>
-
+                    <li><a href="<?php echo base_url('Autentifikasi'); ?>">Login.</a></li>
+                    <li><a href="<?php echo base_url('Autentifikasi/registrasi'); ?>">Registrasi.</a></li>
                 </ul>
 
             </nav> <!-- /nav-wrap -->

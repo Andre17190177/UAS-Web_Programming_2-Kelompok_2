@@ -120,7 +120,14 @@ class Autentifikasi extends CI_Controller
             $this->load->view('templates/aute_footer');
         } else {
             $email = $this->input->post('email', true);
-            $data = ['nama' => htmlspecialchars($this->input->post('nama', true)), 'email' => htmlspecialchars($email), 'image' => 'default.jpg', 'password' => password_hash($this->input->post('password1'), PASSWORD_DEFAULT), 'role_id' => 2, 'is_active' => 0, 'tanggal_input' => time()];
+            $data = [
+                'nama' => htmlspecialchars($this->input->post('nama', true)),
+                'email' => htmlspecialchars($email),
+                'image' => 'default.jpg',
+                'password' => password_hash($this->input->post('password1'), PASSWORD_DEFAULT),
+                'role_id' => 2, 'is_active' => 0,
+                'tanggal_input' => time()
+            ];
             $this->ModelUser->simpanData($data);
             $this->session->set_flashdata('pesan', '<div class="alert alert-success alert-message" role="alert">Selamat!! akun member anda sudah dibuat. Silahkan Aktivasi Akun anda</div>');
             redirect('autentifikasi');
@@ -129,9 +136,7 @@ class Autentifikasi extends CI_Controller
 
     public function logout()
     {
-        $data['judul'] = 'Logout';
-        $this->load->view('templates/aute_header', $data);
-        $this->load->view('autentifikasi/login');
-        $this->load->view('templates/aute_footer');
+        $this->session->sess_destroy();
+        redirect('autentifikasi');
     }
 }

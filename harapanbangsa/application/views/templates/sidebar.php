@@ -38,10 +38,6 @@
             <span>Data Donasi</span></a>
     </li>
     <li class="nav-item">
-        <a class="nav-link pb-0" href="<?= base_url('donasi/donatur'); ?>"> <i class="fa fa-fw fa book"></i>
-            <span>Data Donatur</span></a>
-    </li>
-    <li class="nav-item">
         <a class="nav-link pb-0" href="<?= base_url('donasi/yayasan'); ?>"> <i class="fa fa-fw fa book"></i>
             <span>Data Yayasan</span></a>
     </li>

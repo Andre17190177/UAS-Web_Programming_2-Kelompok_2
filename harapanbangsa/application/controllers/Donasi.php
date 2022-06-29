@@ -15,66 +15,41 @@ class Donasi extends CI_Controller
         $data['user'] = $this->ModelUser->cekData(['email' => $this->session->userdata('email')])->row_array();
         $data['donasi'] = $this->ModelDonasi->getDonasi()->result_array();
         $data['jenis'] = $this->ModelDonasi->getJenis()->result_array();
-        $data['donatur'] = $this->ModelDonasi->getDonatur()->result_array();
-        $this->form_validation->set_rules('jenis_donasi', 'Jenis', 'required', ['required' => 'Jenis harus diisi']);
-        $this->form_validation->set_rules('nama_donatur', 'Nama Donatur', 'required|min_length[3]', ['required' => 'Nama Donatur harus diisi', 'min_length' => 'Nama Donatur terlalu pendek']);
-        $this->form_validation->set_rules('jumlah_donasi', 'Jumlah Donasi', 'required|min_length[3]', ['required' => 'Jumlah Donasi harus diisi', 'min_length' => 'Jumlah Donasi terlalu pendek']);
-        $this->form_validation->set_rules('tanggal_donasi', 'Tanggal Donasi', 'required', ['required' => 'Tanggal Donasi harus diisi']);
 
-        if ($this->form_validation->run() == false) {
-            $this->load->view('templates/v_header', $data);
-            $this->load->view('templates/sidebar', $data);
-            $this->load->view('templates/topbar', $data);
-            $this->load->view('donasi/index', $data);
-            $this->load->view('templates/v_footer');
-        } else {
-            $data = [
-                'jenis_donasi' => $this->input->post('jenis_donasi', true), 'nama_donatur' => $this->input->post('nama_donatur', true),
-                'jumlah_donasi' => $this->input->post('jumlah_donasi', true), 'tanggal_donasi' => $this->input->post('tanggal_donasi', true)
-            ];
-            $this->ModelDonasi->simpanDonasi($data);
-            redirect('donasi');
-        }
+        $this->load->view('templates/v_header', $data);
+        $this->load->view('templates/sidebar', $data);
+        $this->load->view('templates/topbar', $data);
+        $this->load->view('donasi/index', $data);
+        $this->load->view('templates/v_footer');
     }
 
-    public function ubahDonasi()
+    public function Form()
     {
-        $data['judul'] = 'Ubah Data Donasi';
-        $data['user'] = $this->ModelUser->cekData(['email' => $this->session->userdata('email')])->row_array();
-        $data['donasi'] = $this->ModelDonasi->donasiWhere(['id' => $this->uri->segment(3)])->result_array();
-        $jenis = $this->ModelDonasi->joinJenis(['donasi.id' => $this->uri->segment(3)])->result_array();
-        $donatur = $this->ModelDonasi->joinDonatur(['donasi.id' => $this->uri->segment(3)])->result_array();
-
-        foreach ($jenis as $j) {
-            $data['id'] = $j['id'];
-            $data['j'] = $j['jenis_donasi'];
-        }
-
-        foreach ($donatur as $o) {
-            $data['o'] = $o['nama_donatur'];
-        }
-
         $data['jenis'] = $this->ModelDonasi->getJenis()->result_array();
-        $this->form_validation->set_rules('jenis_donasi', 'Jenis', 'required', ['required' => 'Jenis harus diisi']);
+
+        $this->form_validation->set_rules('jenis_donasi', 'Jenis', 'required', ['required' => 'Jenis Donasi harus diisi']);
         $this->form_validation->set_rules('nama_donatur', 'Nama Donatur', 'required|min_length[3]', ['required' => 'Nama Donatur harus diisi', 'min_length' => 'Nama Donatur terlalu pendek']);
-        $this->form_validation->set_rules('jumlah_donasi', 'Jumlah Donasi', 'required|min_length[3]', ['required' => 'Jumlah Donasi harus diisi', 'min_length' => 'Jumlah Donasi terlalu pendek']);
-        $this->form_validation->set_rules('tanggal_donasi', 'Tanggal Donasi', 'required', ['required' => 'Tanggal Donasi harus diisi']);
+        $this->form_validation->set_rules('no_telepon/hp', 'Nomor Telepon/Hp', 'required|min_length[3]|numeric', ['required' => 'Nomor Telepon/Hp harus diisi', 'min_length' => 'Nomor Telepon/Hp terlalu pendek', 'numeric' => 'Nomor Telepon/Hp harus berupa angka']);
+        $this->form_validation->set_rules('email', 'Email', 'required|min_length[3]', ['required' => 'Email harus diisi', 'min_length' => 'Email terlalu pendek']);
+        $this->form_validation->set_rules('jumlah_donasi', 'Jumlah Donasi', 'numeric', ['numeric' => 'Jumlah Donasi harus berupa angka']);
 
         if ($this->form_validation->run() == false) {
-            $this->load->view('templates/v_header', $data);
-            $this->load->view('templates/sidebar', $data);
-            $this->load->view('templates/topbar', $data);
-            $this->load->view('donasi/ubah_donasi', $data);
-            $this->load->view('templates/v_footer');
+            $data['judul'] = 'Form Donasi';
+            $this->load->view('templates/aute_header', $data);
+            $this->load->view('donasi/form');
+            $this->load->view('templates/aute_footer');
         } else {
             $data = [
-                'jenis_donasi' => $this->input->post('jenis_donasi', true), 'nama_donatur' => $this->input->post('nama_donatur', true),
-                'jumlah_donasi' => $this->input->post('jumlah_donasi', true), 'tanggal_donasi' => $this->input->post('tanggal_donasi', true)
+                'jenis_donasi' => $this->input->post('jenis_donasi', true),
+                'nama_donatur' => $this->input->post('nama_donatur', true),
+                'no_telepon/hp' => $this->input->post('no_telepon/hp', true),
+                'email' => $this->input->post('email', true),
+                'jumlah_donasi' => $this->input->post('jumlah_donasi', true),
+                'tanggal_donasi' => time()
             ];
-
-            $this->ModelDonasi->updateDonasi($data, ['id' =>
-            $this->input->post('id')]);
-            redirect('donasi');
+            $this->ModelDonasi->simpanDonasi($data);
+            $this->session->set_flashdata('pesan', '<div class="alert alert-success alert-message" role="alert">Terimakasih Sudah Berdonasi</div>');
+            redirect('donasi/form');
         }
     }
 
@@ -133,66 +108,6 @@ class Donasi extends CI_Controller
         redirect('donasi/jenis');
     }
 
-    public function Donatur()
-    {
-        $data['judul'] = 'Data Donatur';
-        $data['user'] = $this->ModelUser->cekData(['email' => $this->session->userdata('email')])->row_array();
-        $data['donatur'] = $this->ModelDonasi->getDonatur()->result_array();
-        $this->form_validation->set_rules('nama_donatur', 'Nama Donatur', 'required|min_length[3]', ['required' => 'Nama Donatur harus diisi', 'min_length' => 'Nama Donatur terlalu pendek']);
-        $this->form_validation->set_rules('telepon_donatur', 'Telepon Donatur', 'required|numeric', ['required' => 'Nomor Telepon/Hp harus diisi', 'numeric' => 'Nomor Telepon/Hp harus berupa angka']);
-        $this->form_validation->set_rules('email', 'Email', 'required', ['required' => 'Email harus diisi']);
-
-        if ($this->form_validation->run() == false) {
-            $this->load->view('templates/v_header', $data);
-            $this->load->view('templates/sidebar', $data);
-            $this->load->view('templates/topbar', $data);
-            $this->load->view('donasi/donatur', $data);
-            $this->load->view('templates/v_footer');
-        } else {
-            $data = [
-                'nama_donatur' => $this->input->post('nama_donatur'),
-                'telepon_donatur' => $this->input->post('telepon_donatur'),
-                'email' => $this->input->post('email')
-            ];
-            $this->ModelDonasi->simpanDonatur($data);
-            redirect('donasi/donatur');
-        }
-    }
-
-    public function ubahDonatur()
-    {
-        $data['judul'] = 'Ubah Data Donatur';
-        $data['user'] = $this->ModelUser->cekData(['email' => $this->session->userdata('email')])->row_array();
-        $data['donatur'] = $this->ModelDonasi->donaturWhere(['id' => $this->uri->segment(3)])->result_array();
-
-        $this->form_validation->set_rules('nama_donatur', 'Nama Donatur', 'required', ['required' => 'Nama Donatur harus diisi']);
-        $this->form_validation->set_rules('telepon_donatur', 'Telepon Donatur', 'required|numeric', ['required' => 'Nomor Telepon/Hp harus diisi', 'numeric' => 'Nomor Telepon/Hp harus berupa angka']);
-        $this->form_validation->set_rules('email', 'Email', 'required', ['required' => 'Email harus diisi']);
-
-        if ($this->form_validation->run() == false) {
-            $this->load->view('templates/v_header', $data);
-            $this->load->view('templates/sidebar', $data);
-            $this->load->view('templates/topbar', $data);
-            $this->load->view('donasi/ubah_donatur', $data);
-            $this->load->view('templates/v_footer');
-        } else {
-            $data = [
-                'nama_donatur' => $this->input->post('nama_donatur', true),
-                'telepon_donatur' => $this->input->post('telepon_donatur', true),
-                'email' => $this->input->post('email', true)
-            ];
-            $this->ModelDonasi->updateDonatur(['id' => $this->input->post('id')], $data);
-            redirect('donasi/donatur');
-        }
-    }
-
-    public function hapusDonatur()
-    {
-        $where = ['id' => $this->uri->segment(3)];
-        $this->ModelDonasi->hapusDonatur($where);
-        redirect('donasi/donatur');
-    }
-
     public function Yayasan()
     {
         $data['judul'] = 'Data Yayasan';
@@ -232,7 +147,11 @@ class Donasi extends CI_Controller
             $this->load->view('donasi/ubah_yayasan', $data);
             $this->load->view('templates/v_footer');
         } else {
-            $data = ['nama_yayasan' => $this->input->post('nama_yayasan', true), 'no_telepon/hp' => $this->input->post('no_telepon/hp', true), 'alamat' => $this->input->post('alamat', true)];
+            $data = [
+                'nama_yayasan' => $this->input->post('nama_yayasan', true),
+                'no_telepon/hp' => $this->input->post('no_telepon/hp', true),
+                'alamat' => $this->input->post('alamat', true)
+            ];
             $this->ModelDonasi->updateYayasan(['id' => $this->input->post('id')], $data);
             redirect('donasi/yayasan');
         }

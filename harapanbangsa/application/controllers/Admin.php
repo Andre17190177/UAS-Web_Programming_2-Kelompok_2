@@ -12,7 +12,6 @@ class Admin extends CI_Controller
         $data['judul'] = 'Dashboard';
         $data['user'] = $this->ModelUser->cekData(['email' => $this->session->userdata('email')])->row_array();
         $data['anggota'] = $this->ModelUser->getUserLimit()->result_array();
-        $data['donatur'] = $this->ModelDonasi->getDonatur()->result_array();
         $data['donasi'] = $this->ModelDonasi->getDonasi()->result_array();
         $data['jenis'] = $this->ModelDonasi->getJenis()->result_array();
         $data['yayasan'] = $this->ModelDonasi->getYayasan()->result_array();

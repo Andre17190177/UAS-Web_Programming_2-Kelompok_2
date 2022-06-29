@@ -1698,7 +1698,6 @@ hr {
 /* =================================================================== */
 #program {
 	background: white;
-
 }
 
 .ie #program .row.items {
@@ -1851,9 +1850,12 @@ hr {
 
 #tentang {
 	background: white;
+	-webkit-background-size: cover !important;
+	-moz-background-size: cover !important;
+	background-size: cover !important;
 	padding-top: 120px;
-	padding-bottom: 0;
-	text-align: center;
+	padding-bottom: 108px;
+	width: 100%;
 }
 
 #tentang .tentang-content {
@@ -1870,8 +1872,6 @@ hr {
 
 #tentang p {
 	color: #707273;
-	text-align: center;
-	padding-left: 100px;
 }
 
 #tentang .left {
@@ -1977,6 +1977,24 @@ hr {
 	width: 100%;
 }
 
+#donasi .row {
+	max-width: 784px;
+}
+
+#donasi form {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#donasi input[type=text] {
+	background: white;
+	color: black;
+	width: 100%;
+	padding: 18px 20px;
+	margin: 15px 0;
+	box-sizing: border-box;
+  }
+
 #donasi h1,
 #donasi h3,
 #donasi h3 a {
@@ -2020,7 +2038,6 @@ hr {
 	padding-top: 120px;
 	padding-bottom: 102px;
 	overflow: hidden;
-	padding-left: 130px;
 }
 
 #kontak .row {

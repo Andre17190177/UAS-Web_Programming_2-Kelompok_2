@@ -74,41 +74,6 @@ class ModelDonasi extends CI_Model
         return $this->db->get();
     }
 
-    //Manajemen Donatur
-    public function getDonatur()
-    {
-        return $this->db->get('donatur');
-    }
-
-    public function donaturWhere($where)
-    {
-        return $this->db->get_where('donatur', $where);
-    }
-
-    public function simpanDonatur($data = null)
-    {
-        $this->db->insert('donatur', $data);
-    }
-
-    public function updateDonatur($data = null, $where = null)
-    {
-        $this->db->update('donatur', $data, $where);
-    }
-
-    public function hapusDonatur($where = null)
-    {
-        $this->db->delete('donatur', $where);
-    }
-
-    public function joinDonatur($where)
-    {
-        $this->db->select('donasi.nama_donatur, donatur.nama_donatur');
-        $this->db->from('donasi');
-        $this->db->join('donatur', 'donatur.nama_donatur = donasi.nama_donatur');
-        $this->db->where($where);
-        return $this->db->get();
-    }
-
     //Manajemen Yayasan
     public function getYayasan()
     {
